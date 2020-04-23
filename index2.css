@@ -1,0 +1,48 @@
+body {padding: 0;
+    margin: 0;
+    background-color: cornflowerblue;
+}
+body header {text-align: center;
+           font-size: 20px;
+           font-weight: bold;
+}
+main h3 {text-align: center;
+}
+.firstPart, .secondPart, .thirdPart,
+.fourthPart, .fifthPart, .sixthPart,
+.seventhPart, .eightPart, .ninthPart,
+.tenthPart 
+{
+  display: flex;
+  justify-content: space-evenly;
+}
+button {background: -webkit-linear-gradient(aqua, chartreuse);
+      height: 30px;
+      width: 100px;
+      border: 0;
+      border-radius: 50px;
+}
+form {padding-top: 13px;
+}
+.answerSection h1 {text-align: center;
+                 padding-top: 20px;
+}
+.answerSection ul {list-style: lower-alpha;
+}
+span form button {position: relative;
+                top: 15px;
+                left: 180px;
+                width: 150px;
+                height: 40px;
+}
+span form {justify-self: center;
+}
+#answerDisplay {visibility: hidden;
+              font-size: 24px;
+              color: white;
+              text-align: center;
+}
+#comments {text-align: center;
+         font-size: 12px;
+         font-style: italic;  
+}

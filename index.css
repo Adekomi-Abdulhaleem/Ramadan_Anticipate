@@ -1,0 +1,71 @@
+body {background: cornflowerblue;
+      padding: 0;
+      margin: 0;
+}
+.header1 {background-color: aqua;
+          width: 50vh;
+          height: 10vh;
+          margin: auto;
+          border: 7px solid chartreuse;
+          color: white;
+          text-shadow: 5px 3px black;
+          align-items: center;   
+}
+#timeDisplay {font-size: 36px;
+                     text-align: center;
+                     background-color: aqua;
+                     flex: 1;
+}
+#firstParagraph {font-size: 100px;
+                 font-family: cursive;
+                 background-color: chartreuse;
+                 text-align: center;
+}
+#header3 {text-align: center;
+}
+#header3 form {padding-top: 20px;
+}
+#header3 #button {width: 150px;
+                  height: 40px;
+                  border-radius: 50px;
+                  font-size: 24px;
+                  background: -webkit-linear-gradient(left, aqua, chartreuse);
+}
+#timeFrames {display: flex;
+             list-style: none;
+             justify-content: space-around;
+             padding-left: 20px;
+}
+#countdown {border: 5px solid chartreuse;
+            margin: auto;
+}
+#countDiv {display: flex;
+}
+#countDays, #countHours, #countMinutes, #countSeconds {width: 18vh;
+                                                       height: 50px;
+                                                       background-color: aqua;
+                                                       border: 5px solid chartreuse;
+                                                       margin: auto;
+                                                       font-size: 30px;
+                                                       font-style: italic;
+                                                       font-family: cursive;
+                                                       text-align: center;
+                                                       font-weight: bold;
+}
+#countDays:hover, #countHours:hover, #countMinutes:hover, #countSeconds:hover {box-shadow: 5px 5px #85c7c4;
+}
+#ramadanBegin {text-align: center;
+}
+#ramadanBegin span {font-size: 16px; 
+                    font-family: cursive;
+                    font-style: italic;
+}
+#lastParagraph {font-size: 14px;
+                text-align: center;
+}
+footer {text-align: center;
+        font-size: 12px;
+        background: -webkit-linear-gradient(cornflowerblue, chartreuse) ;
+}
+footer p i b {font-size: 24px;
+}
